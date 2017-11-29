@@ -29,5 +29,9 @@ for line in data_list:
 #Close file
 file_obj.close()
 
+#Codecs
+import codecs
+file_obj=codecs.open('Robert_Frost.txt','r',encoding='utf-8')
+print(file_obj.read())
 
 
